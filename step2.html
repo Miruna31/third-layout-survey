@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="I made this page to learn">
+    <meta name="keywords" content="html5, learn code, page">
+    <meta name="author" content="Miruna Arcaleanu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Survey-Step2</title>
+
+    <link rel="stylesheet" type="text/css" href="resources/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+</head>
+<body page="step2">
+    <div class="wrapper">
+        <header>
+            <div class="header-image-container">
+                <img src="assets/step-2.png" alt="header-image">
+            </div>
+            <div class="title">Notifications Survey</div>
+        </header>
+
+        <form action="" method="get">
+            <div class="form-container">
+
+                <div class="content">
+                    <div class="text">Would you recommend our Board to other users?</div>
+                    <div class="first-question">
+                        <span>1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>4</span>
+                        <span>5</span>
+                        <div class="rating">
+                            <div >Not at all likely</div>
+                            <div >Extremely likely</div>
+                        </div>
+                    </div>
+
+                    <div class="text">Pick the 3 things you find most important with the integration documentation:</div>
+                        <div class="options">
+                            <div class="row">
+                                <input type="checkbox" id="tutorials" name="documentation" value="Tutorials">
+                                <label for="tutorials">Tutorials</label><br>
+                                <input type="checkbox" id="api" name="documentation" value="Api">
+                                <label for="api">API Reference</label><br>
+                                <input type="checkbox" id="examples" name="documentation" value="examples">
+                                <label for="examples">Inline code examples</label><br>
+                            </div>
+                            <div class="row">
+                                <input type="checkbox" id="content" name="documentation" value="content">
+                                <label for="content">Clear consistent content</label><br>
+                                <input type="checkbox" id="repos" name="documentation" value="repos">
+                                <label for="repos">Runnable example repos</label>
+                            </div>
+                            <div class="row">
+                                <input type="checkbox" id="support" name="documentation" value="support">
+                                <label for="support">Support</label><br>
+                                <input type="checkbox" id="navigation" name="documentation" value="navigation">
+                                <label for="Navigation">Navigation & Search</label><br>
+                                <input type="checkbox" id="design" name="documentation" value="design">
+                                <label for="design">Design & Usability</label>   
+                            </div>
+                        </div>
+
+                    <div class="text">How would you score your navigation experience so far?</div>
+                    <div class="third-question">
+                        <span>
+                            <img src="../third-layout-survey/assets/expectations-level-1.png" alt="level1">
+                        </span>
+                        <span>
+                            <img src="../third-layout-survey/assets/expectations-level-2.png" alt="level2">
+                        </span>
+                        <span>
+                            <img src="../third-layout-survey/assets/expectations-level-3.png" alt="level3">
+                        </span>
+                        <span>
+                            <img src="../third-layout-survey/assets/expectations-level-4.png" alt="level4">
+                        </span>
+                        <span>
+                            <img src="../third-layout-survey/assets/expectations-level-5.png" alt="level5">
+                        </span>
+                        <div class="rating expectations">
+                            <div class="expect" >Didn't meet expectations</div>
+                            <div class="expect" >Exceeded expectations</div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="buttons">
+                <a href="index.html" title="Step-1" class="button back" >BACK</a>
+                <input type="submit" id="submit" class="button submit" value="SEND">
+            </div>
+            
+        </form>
+
+    </div>
+    
+</body>
+</html>

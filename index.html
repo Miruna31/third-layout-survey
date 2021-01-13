@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="I made this page to learn">
+    <meta name="keywords" content="html5, learn code, page">
+    <meta name="author" content="Miruna Arcaleanu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>My Third Layout-Survey</title>
+
+    <link rel="stylesheet" type="text/css" href="resources/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+</head>
+<body >
+    <div class="wrapper">
+        <header>
+            <div class="header-image-container">
+                <img src="assets/step-1.png" alt="header-image">
+            </div>
+            <div class="title">Notifications Survey</div>
+        </header>
+
+        <form action="" method="get">
+            <div class="form-container">
+                <div class="content">
+                    <div class="info">
+                        <div class="text">We're working on our notification system to make our product work better.</div>
+                        <div class="text">The survey consists in several questions and usually takes 5-7 minutes to complete.</div>
+                    </div>
+
+                    <div class="survey">
+                        <label for="emailInput" class="text" >Enter your email:</label><br>
+                        <input required  type="email" id="emailInput" placeholder="Your answer" />
+
+                        <div class="text">Are you an admin or a member on our Board?</div>
+                        <div class="category">
+                            <input type="radio" id="admin" name="category" value="admin">
+                            <label for="admin">Admin</label>
+                        </div>
+                        <div class="category">
+                            <input type="radio" id="member" name="category" value="member">
+                            <label for="member">Member</label>
+                        </div>
+
+                        <div class="text">How do you collaborate in our Board?</div>
+                        <div class="category">
+                            <input type="radio" id="create" name="category" value="create">
+                            <label for="create">Create and edit content</label>
+                        </div>
+                        <div class="category">
+                            <input type="radio" id="comment" name="category" value="comment">
+                            <label for="comment">Comment and leave comment</label>
+                        </div>
+                        <div class="category">
+                            <input type="radio" id="review" name="category" value="review">
+                            <label for="review">Just review created comment</label>
+                        </div>
+                        <div class="category">
+                            <input type="radio" id="other" name="category" value="other">
+                            <label for="other">Other:</label>
+                            <input type="text" required  id="other-input">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="next-button">
+                <a href="step2.html" title="Step-2" class="button next" >NEXT</a>
+            </div>
+            
+        </form>
+    </div>
+    
+</body>
+</html>
