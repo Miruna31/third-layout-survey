@@ -96,6 +96,10 @@ input[name~="category"]{
     margin: 8px 0px;
 }
 
+input[name~="category-2"]{
+    margin: 8px 0px;
+}
+
 .next-button{
    display: flex;
    justify-content: center;
