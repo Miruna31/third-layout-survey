@@ -26,6 +26,7 @@ header{
     transform: translate(-50%, -50%)
 }
 
+/* mi-as dori sa nu mai punem dimensiuni fixe direct pe imagini */
 .header-image-container img{
     height: 230px;
     width: auto;
