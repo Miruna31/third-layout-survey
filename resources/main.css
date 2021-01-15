@@ -173,8 +173,8 @@ input[name~="category"]{
 }
 
 span img{
-    width: 40px;
-    height: 40px;
+    width: auto;
+    height: 70%;
     padding-top: 10px;
 }
 
