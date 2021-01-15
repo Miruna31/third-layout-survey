@@ -20,15 +20,15 @@ header{
 }
 
 .header-image-container{
+    height: 230px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%)
 }
 
-/* mi-as dori sa nu mai punem dimensiuni fixe direct pe imagini */
 .header-image-container img{
-    height: 230px;
+    height: 100%;
     width: auto;
 }
 
@@ -86,7 +86,7 @@ input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: lightgray;
   }
 
-  #other-input{
+#other-input{
     border: none;
     border-bottom: 1px solid #afafaf;
     width: 300px;
